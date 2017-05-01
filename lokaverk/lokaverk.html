@@ -5,10 +5,17 @@
 	<title>lokaverk</title>
 	<link rel="stylesheet" type="text/css" href="stilsida.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<script type="text/javascript">
-        function ani(){
-            document.getElementById('img').className ='classname';
+        function ani()
+        {
+            document.getElementById('mask').className ='grima';
+            document.getElementById('up').className ='up';
+            document.getElementById('down').className ='down';
+            document.getElementById('spurn').className ='spurn';
+            document.getElementById('bak').className ='bak';
+            document.getElementById('burt').className ='burt';
         }
   </script>
 </head>
@@ -16,19 +23,32 @@
 
 
 <header>
-
-<img src="mask.png" height="300px" width="800px">
-
-<h1 class="t">Svarti Markaðurinn</h1>
-
-
-<img id="img" src="spurn.png" width="100" height="100" onclick="ani()"/>
-
 	
-
-	
-
 </header>
+
+<div id="burt">
+	
+	<img id="mask" src="mask.png" height="300px" width="800px">
+	
+
+	<h1 id="up" class="t">Svarti </h1>
+	<h1 id="down" class="t"> Markaðurinn</h1>
+	<img id="spurn" src="spurn.png" width="100" height="100" onclick="ani()"/>
+
+</div>
+<section id="bak" class="undir">
+	<h1 class="y">
+		Svarti Markaðurinn 
+		<br> er með öllu nýjustu tölvu íhlutina 
+		<br> á skuggalega lágu verði
+		<br> en aldrei á sama stað
+		<br>skráning = möguleiki
+	</h1>
+	
+
+
+</section>
+
 
 
 
