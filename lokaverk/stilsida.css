@@ -6,35 +6,57 @@ body
 	margin:0 auto;
 	border-radius: 5px;
 	border: solid 3px;
+	background-image: url("comp.jpg");
+	background-size: cover;
+}
+
+header
+{
+	text-align: center;
+	padding: 1em;
 }
 
 
-.topmenu{
-position: fixed;
-bottom: -15em;
-	width: 100%;
-  background-color: black;
-  padding: 1px;
-  margin: 0;
-  list-style: none;
-  transition: all .5s ease;
-}
-.topmenu li{
-  border:0;
-  border-left: 1px solid line;
-  padding: 3px;
+section
+{
+	padding: 1em;
+	border:5px;
+	display: flex;
+	flex-flow: row;
+	max-width: 300px;
+	
 }
 
-.topmenu a{
-  display: block;
-  color:white;
-  text-decoration: none;
-  padding:8px;
+article 
+{
+ 	padding: 1em;
+ 	border:5px solid;
 }
 
-.topmenu li:last-child{
-		border-right: 1px solid line;
-	}
+
+aside.r
+{
+	float: right;
+	padding: 1em;
+	border:5px solid;
+}
+	
+
+
+aside.l 
+{
+	padding: 1em;
+	float:left;
+	border:5px solid;
+}
+
+
+h1.t
+{
+	font-family: 'Bungee Inline', cursive;
+}
+
+
 
 
 input {
@@ -44,7 +66,7 @@ input {
 label {
   border: 1px solid #cecfd5;
   border-radius: 6px;
-  background: red;
+ 
 	position:fixed;
 	bottom:0;
 	left:0;
@@ -84,44 +106,112 @@ a:hover {
 }
 
 
-header
-{
-	text-align: center;
-	padding: 1em;
+
+
+.topmenu{
+position: fixed;
+bottom: -15em;
+	width: 100%;
+  padding: 1px;
+  margin: 0;
+  list-style: none;
+  transition: all .5s ease;
+}
+.topmenu li{
+  border:0;
+  border-left: 1px solid line;
+  padding: 3px;
 }
 
+.topmenu a{
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding:8px;
+}
 
-section
-{
-	padding: 1em;
-	border:5px;
-	display: flex;
-	flex-flow: column;
-	max-width: 300px;
+.topmenu li:last-child{
+		border-right: 1px solid line;
+	}
+
+
+
+.htexti1 {
 	
+  	opacity:0;
+  	position:relative;
+   
+    animation-name: htext1;
+    animation-duration: 15s;
+   
+    animation-fill-mode: forwards;
+    
+    
+    
+
 }
 
-article 
+
+@keyframes htext1 
 {
- 	padding: 1em;
- 	border:5px solid;
+    
+    5%{opacity:1;}
+    70%{opacity:0;}
+    
 }
 
-
-aside.r
+.htexti2 
 {
-	float: right;
-	padding: 1em;
-	border:5px solid;
-}
 	
+   	opacity: 0;
+   	position: relative;
+   	float: right;
+   
+   	
+    animation-name: htext2;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+
+    
+    
+
+}
 
 
-aside.l 
-{
-	padding: 1em;
-	float:left;
-	border:5px solid;
+@keyframes htext2 {
+    20%{ opacity:0;}
+    32%{opacity:0;}
+    55%{opacity:1;}
+    
+    80%{opacity:1;top:1%;}
+    
+    100%{opacity:1;top:1%;}
+}
+
+.htexti3 {
+	
+  	opacity:0;
+  	position:relative;
+   
+    animation-name: htext3;
+    animation-duration: 15s;
+    
+    animation-fill-mode: forwards;
+    
+    
+    
+
+}
+
+
+@keyframes htext3 {
+    
+    0%{}
+    17%{opacity:0;}
+    18%{opacity:1;}
+    25%{opacity: 1;}
+    30%{opacity:1;}
+    100%{opacity:1;}
 }
 
 
@@ -131,7 +221,7 @@ aside.l
 
 	section{
 		display: flex;
-		flex-flow: row;
+		flex-flow: column;
 	}
 
 	article{
@@ -149,7 +239,7 @@ aside.l
 
 	.topmenu{
 
-		background-color: grey;
+		
 		display: flex;
 		flex-flow: row;
 		justify-content: center;
