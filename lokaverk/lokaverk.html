@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -16,8 +17,38 @@
             document.getElementById('spurn').className ='spurn';
             document.getElementById('bak').className ='bak';
             document.getElementById('burt').className ='burt';
+            document.getElementById('t1').className ='t1';
+            document.getElementById('t2').className ='t2';
+            document.getElementById('t3').className ='t3';
+            document.getElementById('t4').className ='t4';
+            document.getElementById('t5').className ='t5';
         }
   </script>
+  <script>
+// Get the modal
+var modal = document.getElementById('signup');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
 </head>
 <body>
 
@@ -37,17 +68,82 @@
 
 </div>
 <section id="bak" class="undir">
-	<h1 class="y">
+	<h1 id="t1">
 		Svarti Markaðurinn 
-		<br> er með öllu nýjustu tölvu íhlutina 
-		<br> á skuggalega lágu verði
-		<br> en aldrei á sama stað
-		<br>skráning = möguleiki
+		
 	</h1>
-	
-
-
+	<h1 id="t2">
+		er með öllu nýjustu tölvu íhlutina 
+		
+	</h1>
+	<h1 id="t3">
+		á skuggalega lágu verði 
+		
+	</h1>
+	<h1 id="t4">
+		en aldrei á sama stað
+		
+	</h1>
+	<h1 id="t5">
+		skráning = möguleiki
+		
+	</h1>
 </section>
+
+
+<button onclick="document.getElementById('signup').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="signup" class="modalu">
+  <span onclick="document.getElementById('signup').style.display='none'" class="closeu" title="Close Modal">×</span>
+  <form class="modal-contentu animate" action="/action_page.php">
+    <div class="containeru">
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      <div class="clearfixu">
+        <button type="button" onclick="document.getElementById('signup').style.display='none'" class="cancelbtnu">Cancel</button>
+        <button type="submit" class="signupbtnu">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
 
 
 
