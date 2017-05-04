@@ -194,7 +194,7 @@ animation-fill-mode: forwards;
 
 .ona1
 {
-
+	padding: 5px;
 	position: absolute;
 	height:0px; width:0px;
 	opacity: 0;
@@ -203,7 +203,7 @@ animation-fill-mode: forwards;
 
 .ona
 {
-
+	padding: 5px;
 	position: absolute;
 	height:0px; width:0px;
 	opacity: 0;
@@ -220,7 +220,7 @@ animation-fill-mode: forwards;
    	80%{ height:5px; width:5px; opacity:0;position: absolute;}
     
     100%{ 
-			border-radius: 5px;height:auto; width:auto;; opacity:1; position: absolute;
+			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
 		}
 }
 
@@ -422,89 +422,328 @@ animation-fill-mode: forwards;
 
 
 
-.rammi1
+.bak3
 {
-
 	position: absolute;
-	height:0px; width:0px;
-	opacity: 0;
-	animation-name: rammi1;
-	background-image: url("comp.jpg");
-	filter: blur(5px);
-	
-	
-	
-  
-
-
-
-	animation-duration:0.5s;
-
-
-	animation-fill-mode: forwards;
-}
-@keyframes rammi1
-{
-    1%{ 
-			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
-		}
-    
-    100%{ 
-			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
-		}
-}
-
-.rammi2
-{
-
-	position: absolute;
-	height:0px; width:0px;
-	opacity: 0;
-	animation-name: rammi2;
 	background-color: grey;
+	border-radius: 5px;height:800px; width:1000px; opacity:0.5;
+}
+
+
+
+
+.ona2
+{
+
+	position: relative;
+	border-radius: 5px;height:800px; width:1000;opacity:1;
+	padding:5px;
 	
+	
+}
 
 
-	animation-duration:0.5s;
 
+
+
+.t13
+{
+	animation-name: t13;
+	animation-duration:4s;
+	animation-fill-mode: forwards;
+	position:relative;
+	font-family: 'Bungee Inline', cursive;font-size: 25px;
+	opacity: 1;
+
+
+
+	
+}
+
+@keyframes t13
+{	
+	0%{font-family: 'Bungee Inline', cursive;font-size: 25px;}
+	9%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:1;}
+	10%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	
+	31%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	32%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+    100%{font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+}
+
+.t23
+{
+	animation-name: t23;
+	animation-duration:4s;
+	
+	font-family: 'Bungee Inline', cursive;font-size: 25px;
+	position:relative;
+	 
 
 	animation-fill-mode: forwards;
 }
-@keyframes rammi2
+
+@keyframes t23
+{	
+	1%{font-family: 'Bungee Inline', cursive;font-size: 25px;}
+	12%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:1;}
+	16%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	31%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	32%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+
+ }
+
+
+
+.t33
 {
-    1%{ 
-			border-radius: 5px;height:800px; width:1000px; opacity:0.5; position: absolute;
-		}
-    
-    100%{ 
-			border-radius: 5px;height:800px; width:1000px; opacity:0.5; position: absolute;
-		}
+	animation-name: t33;
+	animation-duration:4s;
+	font-family: 'Bungee Inline', cursive;font-size: 25px;
+	position:relative;
+	 
+
+	animation-fill-mode: forwards;
 }
-.rammi3
+
+@keyframes t33 
+{	
+	1%{font-family: 'Bungee Inline', cursive;font-size: 25px;}
+	15%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:1;}
+	21%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	31%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	32%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+    }
+
+
+.t43
+{
+	animation-name:t43;
+	animation-duration:4s;
+	font-family: 'Bungee Inline', cursive;font-size: 25px;
+	position:relative;
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t43
+{	
+	10%{font-family: 'Bungee Inline', cursive;font-size: 25px;}
+	20%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:1;}
+	25%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	31%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	32%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+
+}
+.t53
+{
+	animation-name:t53;
+	animation-duration:4s;
+	font-family: 'Bungee Inline', cursive;font-size: 25px;
+	position:relative;
+	animation-fill-mode: forwards;
+}
+
+@keyframes t53 
+{	
+	
+    10%{font-family: 'Bungee Inline', cursive;font-size: 25px;}
+	22%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:1;}
+	25%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	31%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+	32%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;}
+}
+
+
+
+.skra3
+{
+	font-family: 'Bungee Inline', cursive;
+	
+	position:relative;
+	font-size: 30px;left:5px;opacity: 1; 
+	animation-name:skra3;
+	animation-duration:4s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes skra3 
+{
+	
+    1%{font-family: 'Bungee Inline', cursive;font-size: 25px;}
+    24%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;}
+    26%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0; position: absolute; left:-300px;}
+	32%{ font-family: 'Bungee Inline', cursive;font-size: 0px;opacity:0;position: absolute; left:-300px;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 25px;opacity:0;position: absolute; left:-300px;}
+}
+
+
+.spurn3
+{
+	animation-name: spurning3;
+	animation-duration:3s;
+	position:absolute;  right:8%; bottom:20%; height:50px;width:80px; opacity:1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes spurning3 
+{	
+	
+     1%{position:absolute;  right:8%; bottom:20%; height:50px;width:80px; opacity:1;}
+    35%{ position:absolute;  right:8%; bottom:20%; height:50px;width:80px; opacity:1;}
+	36%{ position:absolute;  right:8%; bottom:20%; height:50px;width:80px; opacity:0;}
+    100%{ position:absolute;  right:8%; bottom:20%; height:50px;width:80px; opacity:0;}
+}
+
+
+.grima3
+{
+animation-name:grima3;
+opacity: 1;
+height:100px;width:200px;
+animation-duration:2.5s;
+position:absolute;
+
+animation-fill-mode: forwards;
+}
+@keyframes grima3 
+{	
+    0%{  position:absolute;left:1%; top:1%;height:100px;width:200px;opacity:1;  }
+    10%{  position:absolute;left:1%; top:1%;height:100px;width:200px;opacity:1;  }
+    100%{  position:absolute;left:1%; top:85%;height:100px;width:200px;opacity:1;  }
+}
+
+.grima4
+{
+animation-name: grima4;
+height:100px;width:200px;
+opacity: 0;
+animation-duration:3s;
+animation-fill-mode: forwards;
+
+}
+@keyframes grima4 
+{	
+    0%{  left:1%; top:1%;height:100px;width:200px;opacity:0;  }
+    30%{ left:1%; top:1%;height:100px;width:200px;opacity:0;  }
+    100%{  left:1%; top:85%;height:0px;width:0px;opacity:0;  }
+}
+
+
+.t12
+{
+	animation-name: t12;
+	animation-duration:5s;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 0px;
+	position:relative;
+	opacity: 0;
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t12 
+{	1%{font-size: 0px;}
+	20%{font-size: 0px;}
+	30%{ font-family: 'Bungee Inline', cursive;font-size: 35px;opacity: 1;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 35px;opacity: 1;}
+}
+
+
+
+.t22
+{
+	animation-name: t22;
+	animation-duration:4.5s;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 0px;
+	position:relative;
+	opacity: 0;
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t22 
+{	1%{font-size: 0px;}
+	30%{font-size: 0px;}
+	40%{ font-family: 'Bungee Inline', cursive;font-size: 35px;opacity: 1;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 35px;opacity: 1;}
+}
+
+
+
+.t32
+{
+	animation-name: t32;
+	animation-duration:4s;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 0px;
+	position:relative;
+	opacity: 0;
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t32 
+{	1%{font-size: 0px;}
+	40%{font-size: 0px;}
+	50%{ font-family: 'Bungee Inline', cursive;font-size: 35px;opacity: 1;}
+    100%{ font-family: 'Bungee Inline', cursive;font-size: 35px;opacity: 1;}
+}
+
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Baloo', cursive;
+    
+}
+
+td, th {
+    background-color:#E0E0E0;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Baloo', cursive;
+    font-size: 30px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd ;
+}
+
+.table
 {
 
 	position: absolute;
 	height:0px; width:0px;
 	opacity: 0;
-	animation-name: rammi3;
-	
-	
+	animation-name:table ;
 
-
-	animation-duration:0.5s;
+	animation-duration:3s;
 
 
 	animation-fill-mode: forwards;
 }
-@keyframes rammi3
+@keyframes table
 {
-    1%{ 
-			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
-		}
-    
-    100%{ 
-			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
-		}
+    0%{  position:absolute;right: 1%; bottom:2%;height:100px;width:200px;opacity:0;  }
+     
+    100%{  position:absolute;right:1%; bottom:3%;height:300px;width:400px;opacity:1;  }
 }
 
 .kort
@@ -522,142 +761,7 @@ animation-fill-mode: forwards;
 }
 @keyframes kort
 {
-    0%{  position:absolute;right: 1%; top:1%;height:100px;width:200px;opacity:0;  }
+    0%{  position:absolute;right: 1%; top:2%;height:100px;width:200px;opacity:0;  }
      
-    100%{  position:absolute;right:1%; top:1%;height:300px;width:400px;opacity:1;  }
-}
-
-
-
-.grima3
-{
-animation-name: grima3;
-opacity: 0;
-height:100px;width:200px;
-animation-duration:3s;
-
-
-animation-fill-mode: forwards;
-}
-@keyframes grima3 
-{	
-    0%{  position:absolute;left:1%; top:1%;height:100px;width:200px;opacity:1;  }
-    100%{  position:absolute;left:1%; top:85%;height:100px;width:200px;opacity:1;  }
-}
-
-
-.t12
-{
-	animation-name: t12;
-	animation-duration:5s;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 0px;
-	position:relative;
-	
-	 
-
-	animation-fill-mode: forwards;
-}
-
-@keyframes t12 
-{	
-	20%{font-size: 0px;}
-	30%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-    100%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-}
-
-
-
-.t22
-{
-	animation-name: t22;
-	animation-duration:4.5s;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 0px;
-	position:relative;
-	
-	 
-
-	animation-fill-mode: forwards;
-}
-
-@keyframes t22 
-{	
-	30%{font-size: 0px;}
-	40%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-    100%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-}
-
-
-
-.t32
-{
-	animation-name: t32;
-	animation-duration:4s;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 0px;
-	position:relative;
-
-	 
-
-	animation-fill-mode: forwards;
-}
-
-@keyframes t32 
-{	
-	40%{font-size: 0px;}
-	50%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-    100%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-}
-
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-
-}
-
-tr:nth-child(even) {
-    background-color: #38362E;
-}
-
-@keyframes table 
-{	
-	40%{font-size: 0px;}
-	50%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-    100%{ font-family: 'Bungee Inline', cursive;
-	font-size: 35px;}
-}
-.table
-{
-
-	position: absolute;
-	height:0px; width:0px;
-	opacity: 0;
-	animation-name:table ;
-
-	animation-duration:3s;
-
-
-	animation-fill-mode: forwards;
-}
-@keyframes table
-{
-    0%{  position:absolute;right: 1%; bottom:1%;height:100px;width:200px;opacity:0;  }
-     
-    100%{  position:absolute;right:1%; bottom:1%;height:300px;width:400px;opacity:1;  }
+    100%{  position:absolute;right:1%; top:2%;height:300px;width:400px;opacity:1;  }
 }
