@@ -1,15 +1,28 @@
 body
-{
+{	user-select:none;
+	overflow: hidden;
 	display: flex;
 	flex-flow: column;
 	max-width: 60em;
 	height:0 auto;
 	margin:0 auto;
 	
-	background-image: url("comp.jpg");
+	/*background-image: url("comp.jpg");*/
 	background-size: cover;
 	background-position: fixed;
 	background-repeat: no-repeat; 
+	color: #38362E;
+}
+
+.bkg
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	left:0;
+	top: 0;
+	filter: brightness(100%);
 }
 
 header
@@ -52,6 +65,7 @@ div
 	font-family: 'Bungee Inline', cursive;
 	font-size: 80px;
 	position:relative;
+	margin:0;
 	 
 }
 .y
@@ -416,6 +430,11 @@ animation-fill-mode: forwards;
 	opacity: 0;
 	animation-name: rammi1;
 	background-image: url("comp.jpg");
+	filter: blur(5px);
+	
+	
+	
+  
 
 
 
@@ -496,15 +515,16 @@ animation-fill-mode: forwards;
 	opacity: 0;
 	animation-name: kort;
 
-	animation-duration:6s;
+	animation-duration:3s;
 
 
 	animation-fill-mode: forwards;
 }
 @keyframes kort
 {
-    0%{  position:absolute;left: 1%; top:1%;height:100px;width:200px;opacity:0;  }
-    100%{  position:absolute;left:1%; top:1%;height:500px;width:500px;opacity:1;  }
+    0%{  position:absolute;right: 1%; top:1%;height:100px;width:200px;opacity:0;  }
+     
+    100%{  position:absolute;right:1%; top:1%;height:300px;width:400px;opacity:1;  }
 }
 
 
@@ -522,6 +542,122 @@ animation-fill-mode: forwards;
 @keyframes grima3 
 {	
     0%{  position:absolute;left:1%; top:1%;height:100px;width:200px;opacity:1;  }
-    100%{  position:absolute;left:1%; top:70%;height:100px;width:200px;opacity:1;  }
+    100%{  position:absolute;left:1%; top:85%;height:100px;width:200px;opacity:1;  }
 }
 
+
+.t12
+{
+	animation-name: t12;
+	animation-duration:5s;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 0px;
+	position:relative;
+	
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t12 
+{	
+	20%{font-size: 0px;}
+	30%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+    100%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+}
+
+
+
+.t22
+{
+	animation-name: t22;
+	animation-duration:4.5s;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 0px;
+	position:relative;
+	
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t22 
+{	
+	30%{font-size: 0px;}
+	40%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+    100%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+}
+
+
+
+.t32
+{
+	animation-name: t32;
+	animation-duration:4s;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 0px;
+	position:relative;
+
+	 
+
+	animation-fill-mode: forwards;
+}
+
+@keyframes t32 
+{	
+	40%{font-size: 0px;}
+	50%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+    100%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #38362E;
+}
+
+@keyframes table 
+{	
+	40%{font-size: 0px;}
+	50%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+    100%{ font-family: 'Bungee Inline', cursive;
+	font-size: 35px;}
+}
+.table
+{
+
+	position: absolute;
+	height:0px; width:0px;
+	opacity: 0;
+	animation-name:table ;
+
+	animation-duration:3s;
+
+
+	animation-fill-mode: forwards;
+}
+@keyframes table
+{
+    0%{  position:absolute;right: 1%; bottom:1%;height:100px;width:200px;opacity:0;  }
+     
+    100%{  position:absolute;right:1%; bottom:1%;height:300px;width:400px;opacity:1;  }
+}
