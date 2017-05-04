@@ -78,7 +78,7 @@ div
 animation-name: grima;
 
 
-animation-duration:3s;
+animation-duration:2s;
 
 
 animation-fill-mode: forwards;
@@ -171,6 +171,12 @@ animation-fill-mode: forwards;
     99%{  opacity:1;}
     100%{ opacity:1; }
 }
+
+
+
+
+
+
 
 .ona1
 {
@@ -289,7 +295,7 @@ animation-fill-mode: forwards;
 .t2
 {
 	animation-name: t2;
-	animation-duration:5s;
+	animation-duration:4.5s;
 	font-family: 'Bungee Inline', cursive;
 	font-size: 0px;
 	position:relative;
@@ -312,7 +318,7 @@ animation-fill-mode: forwards;
 .t3
 {
 	animation-name: t3;
-	animation-duration:5s;
+	animation-duration:4s;
 	font-family: 'Bungee Inline', cursive;
 	font-size: 0px;
 	position:relative;
@@ -334,7 +340,7 @@ animation-fill-mode: forwards;
 .t4
 {
 	animation-name: t4;
-	animation-duration:5s;
+	animation-duration:3.5s;
 	font-family: 'Bungee Inline', cursive;
 	font-size: 0px;
 	position:relative;
@@ -356,7 +362,7 @@ animation-fill-mode: forwards;
 .t5
 {
 	animation-name: t5;
-	animation-duration:5s;
+	animation-duration:3.5s;
 	font-family: 'Bungee Inline', cursive;
 	font-size: 0px;
 	position:relative;
@@ -383,7 +389,7 @@ animation-fill-mode: forwards;
 	position:relative;
 	opacity: 0;
 	animation-name: skra;
-	animation-duration:4.5s;
+	animation-duration:3s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease;
 	animation-fill-mode: forwards;
@@ -397,3 +403,125 @@ animation-fill-mode: forwards;
     91%{ font-size: 30px;opacity: 1; }
     100%{ font-size: 30px;left:5px;opacity: 1; }
 }
+
+
+
+
+
+.rammi1
+{
+
+	position: absolute;
+	height:0px; width:0px;
+	opacity: 0;
+	animation-name: rammi1;
+	background-image: url("comp.jpg");
+
+
+
+	animation-duration:0.5s;
+
+
+	animation-fill-mode: forwards;
+}
+@keyframes rammi1
+{
+    1%{ 
+			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
+		}
+    
+    100%{ 
+			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
+		}
+}
+
+.rammi2
+{
+
+	position: absolute;
+	height:0px; width:0px;
+	opacity: 0;
+	animation-name: rammi2;
+	background-color: grey;
+	
+
+
+	animation-duration:0.5s;
+
+
+	animation-fill-mode: forwards;
+}
+@keyframes rammi2
+{
+    1%{ 
+			border-radius: 5px;height:800px; width:1000px; opacity:0.5; position: absolute;
+		}
+    
+    100%{ 
+			border-radius: 5px;height:800px; width:1000px; opacity:0.5; position: absolute;
+		}
+}
+.rammi3
+{
+
+	position: absolute;
+	height:0px; width:0px;
+	opacity: 0;
+	animation-name: rammi3;
+	
+	
+
+
+	animation-duration:0.5s;
+
+
+	animation-fill-mode: forwards;
+}
+@keyframes rammi3
+{
+    1%{ 
+			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
+		}
+    
+    100%{ 
+			border-radius: 5px;height:800px; width:1000px; opacity:1; position: absolute;
+		}
+}
+
+.kort
+{
+
+	position: absolute;
+	height:0px; width:0px;
+	opacity: 0;
+	animation-name: kort;
+
+	animation-duration:6s;
+
+
+	animation-fill-mode: forwards;
+}
+@keyframes kort
+{
+    0%{  position:absolute;left: 1%; top:1%;height:100px;width:200px;opacity:0;  }
+    100%{  position:absolute;left:1%; top:1%;height:500px;width:500px;opacity:1;  }
+}
+
+
+
+.grima3
+{
+animation-name: grima3;
+opacity: 0;
+height:100px;width:200px;
+animation-duration:3s;
+
+
+animation-fill-mode: forwards;
+}
+@keyframes grima3 
+{	
+    0%{  position:absolute;left:1%; top:1%;height:100px;width:200px;opacity:1;  }
+    100%{  position:absolute;left:1%; top:70%;height:100px;width:200px;opacity:1;  }
+}
+
